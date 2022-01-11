@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-size: 8px;
+}
+ .sidebar{
+     color: white;
+     background-color: rgb(105, 5, 72);
+     width: 13vw;
+     height: 49vw;
+     font-family: 'M PLUS 1 Code', sans-serif;
+     padding-right: 20px;
+     position: relative;
+}
+
+.sidebar a{
+    color: white;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sidebar nav{
+    padding: 20px
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 25px;
+}
+.main{
+    /* background-color: rgb(248, 215, 172); */
+    width: 89vw;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    padding-left: 20px;
+}
+.container{ 
+    display: flex; 
+
+} 
+.infoContainer{
+    /* background-color: crimson; */
+    height: 35vw;
+    width: 72vw;
+    margin: 30px auto;
+   display: flex;
+   justify-content: space-around;
+}
+.devpic img{
+    height: 250px;
+    width: 200px;
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+.hello{
+  font-size: 37px;
+  color: rgb(7, 6, 7);
+  margin-top: 8px;
+}
+.name{
+    font-size: 29px;
+    font-weight: bold;
+    color: rgb(105, 5, 72);
+}
+.about{
+   font-size: 21px;
+   color: rgb(7, 6, 6);
+}
+.moreabout{
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    margin-top: 8px;
+}
+.buttons{
+    background-color:  rgb(105, 5, 72);
+    color: white;
+    border-style: none;
+    border-radius: 1px;
+    width: 90px;
+    height: 23px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 9px;
+    text-decoration: none;
+}
+.buttons a{
+    color: rgb(255, 255, 255); 
+    text-transform: none; 
+}
+.buttons:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+.contactForm{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 100px;
+    padding:150 300px ;
+}
+.contactForm h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-right: 98px;
+}
+.mb-3{
+    padding: 6px;
+    
+}
+.form-text{
+      padding: 2px;
+      font-size: 6px;
+}
+.form-control{
+    width: 165px;
+}
+.form-label{
+    font-size: 15px;
+}
+.formSubmit{
+    background-color:  rgb(105, 5, 72);
+    color: white;
+    border-style: none;
+    border-radius: 1px;
+    width: 90px;
+    height: 23px;
+    cursor: pointer;
+    font-size: 9px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.formSubmit:hover{
+    color: black;
+    background-color: silver;
+}
+.form-check-label{
+    font-size: 10px;
+}
+.form-check-input{
+    height: 12px;
+    width: 12px;
+}
+.Contactsidebar{
+    color: white;
+    background-color: rgb(105, 5, 72);
+    width: 13vw;
+    height: 49vw;
+    font-family: 'M PLUS 1 Code', sans-serif;
+     padding-right: 20px;
+}
+.Contactsidebar a{
+   color: white;
+   font-family: 'M PLUS 1 Code', sans-serif;
+   font-size: 18px;
+   text-decoration: none; 
+}
+.Contactsidebar nav{
+   padding: 20px
+}
+.Contactsidebar nav li{
+   list-style: none;
+   font-size: 17px;
+   padding: 25px;
+}
+.Aboutme{
+    width: 600px;
+    height: 300px;
+    border: 2px ;
+    margin-left: 139px;
+    margin-top: 100px;
+    box-shadow: 1px 1px 2px 1px rgb(197, 100, 165);
+    color: rgb(104, 9, 72);
+}
+.Aboutme:hover{
+     box-shadow: 1px 1px 2px 1px rgb(105, 5, 72);
+}
+.Aboutme h1,h2{
+    font-size: 3.5rem;
+    margin-top: 30px;
+}
+.Aboutme p{
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 25px;
+
+}
+.sidebargo{ 
+    transform: translate(-3px,0px);
+    position: absolute;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+@media (max-width:1500px){
+/* .sidebargo{ 
+           transform: translate(-3px,0px);
+           position: absolute;
+} */
+}
+.menu img{
+    height: 23px;
+    width: 23px;
+}
+.menu{
+    margin-bottom: 50px;
+    margin-right: 6px;
+    height: 23px;
+    width: 23px;
+}
+.menuone{
+    margin-bottom: 50px;
+    margin-right: 6px;
+    height: 23px;
+    width: 23px;
+}
+.menuone img{
+    height: 23px;
+    width: 23px;
+}
+.Aboutme h1{
+    margin-bottom: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+.Aboutme h2,p{
+    margin-bottom: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+.skill{
+    font-size: 15px;
+    text-align: center;
+}
+ 
